@@ -1,0 +1,44 @@
+
+<?xml version='1.0'?>
+
+<!DOCTYPE yeb>
+
+<!ELEMENT ecole (cycle*, enseignant, apprenant,batimen,diplome)>
+<!-- declarer les elements constituant l'école -->
+
+<!ELEMENT cycle (primaire, secondaire, superieure)>
+<!--  declarer les differents cycles scolaire -->
+
+
+<!ELEMENT apprenant (ecolier, collegien,lyceen, etudiant)>
+<!-- declarer les grands groupe d'élève -->
+
+
+<!ELEMENT batiment (classe, amphie)>
+<!--   declarer les salla de cours -->
+
+
+<!ELEMENT diplome(cep, bepec, bac, bts, licence, master, doctorat)>
+<!--  les sorts de diplome -->
+
+
+<!ELEMENT administration ( grade*)>
+<!-- declarer les institutions qui gère l'école -->
+
+
+<!ELEMENT ministere (ministere*)>
+<!--  declarer le ministère -->
+
+
+<!ELEMENT parent d eleve (parent*)>
+<!-- le role des parents -->
+
+
+<!ELEMENT syndicat (syndicat)>
+<!--  déclarer les groupes de syndicat en milieu scolaire -->
+
+
+<!ELEMENT formation(contenu*)>
+<!--   déclarer le contenu de la formation -->
+
+	
